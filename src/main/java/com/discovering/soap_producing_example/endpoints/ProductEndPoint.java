@@ -1,10 +1,10 @@
-package com.discovering.soapexample.endpoints;
+package com.discovering.soap_producing_example.endpoints;
 
-import com.discovering.soapexample.entites.Product;
-import com.discovering.soapexample.repositories.ProductRepository;
-import com.discovering.soapexample.wsdl.GetProductRequest;
-import com.discovering.soapexample.wsdl.GetProductResponse;
-import com.discovering.soapexample.wsdl.ProductType;
+import com.discovering.soap_producing_example.entites.Product;
+import com.discovering.soap_producing_example.repositories.ProductRepository;
+import com.discovering.soapproducingexample.wsdl.GetProductRequest;
+import com.discovering.soapproducingexample.wsdl.GetProductResponse;
+import com.discovering.soapproducingexample.wsdl.ProductType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
@@ -15,7 +15,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 @RequiredArgsConstructor
 public class ProductEndPoint {
 
-    private static final String NAMESPACE_URI = "http://www.discovering.com/soapExample/wsdl";
+    private static final String NAMESPACE_URI = "http://www.discovering.com/soapProducingExample/wsdl";
 
     private final ProductRepository productRepository;
 

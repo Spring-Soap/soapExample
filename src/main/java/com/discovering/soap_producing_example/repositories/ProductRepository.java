@@ -1,6 +1,6 @@
-package com.discovering.soapexample.repositories;
+package com.discovering.soap_producing_example.repositories;
 
-import com.discovering.soapexample.entites.Product;
+import com.discovering.soap_producing_example.entites.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

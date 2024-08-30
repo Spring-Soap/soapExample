@@ -1,4 +1,4 @@
-package com.discovering.soapexample.entites;
+package com.discovering.soap_producing_example.entites;
 
 import jakarta.persistence.*;
 import lombok.Data;

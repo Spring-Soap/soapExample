@@ -1,4 +1,4 @@
-package com.discovering.soapexample.configurations;
+package com.discovering.soap_producing_example.configurations;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -28,7 +28,7 @@ public class WebServiceConfig {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("ProductPort");
         wsdl11Definition.setLocationUri("/ws");
-        wsdl11Definition.setTargetNamespace("http://www.discovering.com/soapExample/wsdl");
+        wsdl11Definition.setTargetNamespace("http://www.discovering.com/soapProducingExample/wsdl");
         wsdl11Definition.setSchema(userSchema);
         return wsdl11Definition;
     }

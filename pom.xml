@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.discovering</groupId>
-    <artifactId>soapExample</artifactId>
+    <artifactId>soapProducingExample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>soapExample</name>
-    <description>soapExample</description>
+    <name>soapProducingExample</name>
+    <description>soapProducingExample</description>
     <url/>
     <licenses>
         <license/>
@@ -105,7 +105,7 @@
                     <sources>
                         <schemaDirectory>${project.basedir}/src/main/resources/wsdl</schemaDirectory>
                         <outputDirectory>${project.basedir}src/main/java</outputDirectory>
-                        <packageName>com.discovering.soapexample.wsdl</packageName>
+                        <packageName>com.discovering.soap_producing_example.wsdl</packageName>
                     </sources>
                 </configuration>
             </plugin>
